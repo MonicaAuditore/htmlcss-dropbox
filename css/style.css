@@ -18,21 +18,21 @@ body {
 }
 
 p {
-  font-size: 12px;
+  font-size: 17px;
 }
 
 .container-size-1 {
-  max-width: 65%;
+  max-width: 69%;
   margin: 0 auto;
 }
 
 .container-size-2 {
-  max-width: 57%;
+  max-width: 55%;
   margin: 0 auto;
 }
 
 h1 {
-  font-size: 54px;
+  font-size: 77px;
   font-weight: 800;
 }
 
@@ -76,37 +76,37 @@ nav {
 /* HEADER */
 
 .title {
-  padding: 50px 0px 40px 0px;
+  padding: 80px 0px 50px 0px;
 }
 
 .header {
-  display: flex;
-  justify-content: center;
   background-color: #b4d0e7;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header_container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: -46px;
+  margin-bottom: -85px;
 }
 
 .header_container-sinistra {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 25px;
+  gap: 35px;
   width: 30%;
 }
 
 .header_container-sinistra a {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 17px;
 }
 
 .header_container-sinistra i {
-  font-size: 37px;
-  padding-top: 10px;
+  font-size: 60px;
+  padding-top: 48px;
 }
 
 .header_container-destra {
@@ -124,7 +124,7 @@ nav {
 /* MAIN */
 
 main {
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 /* SEZIONE PIANO BUSINESS */
