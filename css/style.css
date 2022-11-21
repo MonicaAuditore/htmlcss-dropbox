@@ -10,8 +10,20 @@ body {
 }
 
 /* GENERALI */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container-size-1 {
   max-width: 80%;
+  margin: 0 auto;
+}
+
+.container-size-2 {
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 h1 {
@@ -81,6 +93,22 @@ nav {
   width: 660px;
 }
 
+/* SEZIONE PIANO BUSINESS */
+
+.pianoBusiness_opzioni {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-column {
+  width: 100%;
+  margin-right: 40px;
+}
+
+.box-column:nth-child(3) {
+  margin-right: 0px;
+}
+
 /* DEBUG */
 .debug .nav {
   background-color: rgb(255, 149, 149);
@@ -92,4 +120,13 @@ nav {
 
 .debug .header_container {
   background-color: rgb(102, 56, 230);
+}
+
+.debug .pianoBusiness {
+  background-color: rgb(235, 93, 147);
+}
+
+.debug .box-column {
+  height: 200px;
+  background-color: blueviolet;
 }
