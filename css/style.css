@@ -109,6 +109,32 @@ nav {
   margin-right: 0px;
 }
 
+.box-row {
+  width: 100%;
+  margin: 50px 0px;
+}
+
+/* SEZIONE PARTNER */
+
+.partnerContatto {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+/* .partnerContatto_img img {
+  width: 100%;
+  flex-grow: 2;
+} */
+
+.partnerContatto_img {
+  flex-grow: 2;
+}
+
+.partnerContatto_text {
+  flex-grow: 1;
+}
+
 /* DEBUG */
 .debug .nav {
   background-color: rgb(255, 149, 149);
@@ -129,4 +155,19 @@ nav {
 .debug .box-column {
   height: 200px;
   background-color: blueviolet;
+}
+
+.debug .box-row {
+  height: 200px;
+  background-color: rgb(212, 3, 20);
+}
+
+.debug .partnerContatto_text {
+  background-color: black;
+  height: 200px;
+}
+
+.debug .partnerContatto_img {
+  background-color: rgb(99, 99, 99);
+  height: 200px;
 }
