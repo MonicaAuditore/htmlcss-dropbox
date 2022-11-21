@@ -158,6 +158,26 @@ nav {
   justify-content: space-between;
 }
 
+/* SEZIONE FOOTER */
+
+footer {
+  background-color: rgb(22, 22, 22);
+}
+
+.footerContainer_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.footer_box {
+  width: calc(100% / 5);
+}
+
+.footer_box ul {
+  list-style: none;
+}
+
 /* DEBUG */
 .debug .nav {
   background-color: rgb(255, 149, 149);
@@ -199,4 +219,24 @@ nav {
   background-color: rgb(226, 255, 59);
   height: 200px;
   width: calc((100% / 3) - 20px);
+}
+
+.debug .designit {
+  background-color: rgb(55, 114, 0);
+  height: 300px;
+}
+
+.debug .domandeFrequenti {
+  background-color: rgb(255, 145, 0);
+  height: 300px;
+}
+
+.debug .footer_box {
+  background-color: darkgoldenrod;
+  height: 100px;
+}
+
+.debug .language {
+  height: 70px;
+  background-color: red;
 }
