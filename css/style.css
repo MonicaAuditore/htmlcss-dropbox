@@ -122,17 +122,21 @@ nav {
   margin-bottom: 50px;
 }
 
-/* .partnerContatto_img img {
-  width: 100%;
-  flex-grow: 2;
-} */
-
 .partnerContatto_img {
   flex-grow: 2;
 }
 
 .partnerContatto_text {
   flex-grow: 1;
+}
+
+/* SEZIONE ESEGUI OPERAZIONI */
+
+.eseguiOperazioni_card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 /* DEBUG */
@@ -170,4 +174,10 @@ nav {
 .debug .partnerContatto_img {
   background-color: rgb(99, 99, 99);
   height: 200px;
+}
+
+.debug .card {
+  background-color: rgb(226, 255, 59);
+  height: 200px;
+  width: calc((100% / 3) - 20px);
 }
