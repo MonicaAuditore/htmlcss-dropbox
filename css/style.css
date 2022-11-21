@@ -173,6 +173,10 @@ main {
   gap: 30px;
 }
 
+.card {
+  width: calc((100% - 60px) / 3);
+}
+
 /* SEZIONE CLIENTI */
 
 .teamClienti {
@@ -325,7 +329,6 @@ footer {
 .debug .card {
   background-color: rgb(226, 255, 59);
   height: 200px;
-  width: calc((100% / 3) - 20px);
 }
 
 .debug .designit {
