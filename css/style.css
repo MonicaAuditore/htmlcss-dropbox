@@ -147,6 +147,26 @@ nav {
 
 /* SEZIONE DESIGNIT */
 
+.designit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.designit-card {
+  width: calc(100% / 3);
+}
+
+.designit-cubo {
+  width: 50%;
+  height: 50%;
+}
+
+.designit_left,
+.designit_right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* SEZIONE CTA */
 
 .cta {
@@ -157,6 +177,8 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+
+/* SEZIONE DOMANDE */
 
 /* SEZIONE FOOTER */
 
@@ -239,4 +261,13 @@ footer {
 .debug .language {
   height: 70px;
   background-color: red;
+}
+
+.debug .designit-card {
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+.debug .designit-cubo {
+  border: 1px solid black;
 }
