@@ -95,6 +95,18 @@ nav {
 .nav_link-sinistra ul li,
 .nav_link-destra ul li {
   padding: 15px;
+  position: relative;
+}
+
+.nav_link-sinistra ul li:hover a:after,
+.nav_link-destra ul li:hover a:after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #0061ff;
 }
 
 .nav_link-sinistra ul li a,
