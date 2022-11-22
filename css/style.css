@@ -52,6 +52,10 @@ h4 {
   padding: 50px 0px 0px 0px;
 }
 
+.padding-bottom-50 {
+  padding: 0px 0px 50px 0px;
+}
+
 .padding-top-10 {
   padding: 10px 0px 0px 0px;
 }
@@ -354,7 +358,12 @@ ul li {
 /* SEZIONE CTA */
 
 .cta {
-  background-color: rgb(150, 193, 250);
+  background-color: #b4d0e7;
+  padding: 90px 0px;
+}
+
+.cta h2 {
+  color: #5f0226;
 }
 
 .cta_sezioni {
@@ -362,7 +371,30 @@ ul li {
   justify-content: space-between;
 }
 
+.ctaleft,
+.cta-right {
+  width: 50%;
+}
+
+.cta-right {
+  position: relative;
+}
+
+.cta-right a {
+  padding: 14px 31px;
+  background-color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 180px;
+}
+
 /* SEZIONE DOMANDE */
+
+.domandeFrequenti {
+  padding: 100px 0px;
+}
 
 .dropdown {
   position: relative;
@@ -371,7 +403,7 @@ ul li {
 .dropbtn {
   background-color: #ffffff;
   color: rgb(29, 29, 29);
-  padding: 27px;
+  padding: 27px 0px;
   font-size: 12px;
   border: none;
   width: 100%;
@@ -477,10 +509,9 @@ footer {
   background-color: #0061ff;
 }
 
-.debug .domandeFrequenti {
+/* .debug .domandeFrequenti {
   background-color: rgb(255, 145, 0);
-  height: 300px;
-}
+} */
 
 .debug .footer_box {
   background-color: darkgoldenrod;
