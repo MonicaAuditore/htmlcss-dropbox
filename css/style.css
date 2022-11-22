@@ -259,12 +259,21 @@ ul li {
   margin-bottom: 50px;
 }
 
-.partnerContatto_img {
-  flex-grow: 2;
+.partnerContatto_img img {
+  width: 645px;
 }
 
 .partnerContatto_text {
-  flex-grow: 1;
+  padding: 50px;
+}
+
+.partnerContatto_text .fake-btn {
+  background-color: #fff;
+  border: 1px solid grey;
+  text-decoration: none;
+  color: black;
+  margin-top: 36px;
+  display: inline-block;
 }
 
 /* SEZIONE ESEGUI OPERAZIONI */
@@ -429,7 +438,7 @@ footer {
 .debug .box-row {
   height: 255px;
   background-color: rgb(212, 3, 20);
-}*/
+}
 
 .debug .partnerContatto_text {
   background-color: black;
@@ -438,8 +447,8 @@ footer {
 
 .debug .partnerContatto_img {
   background-color: rgb(99, 99, 99);
-  height: 200px;
-}
+  
+}*/
 
 .debug .card {
   background-color: rgb(226, 255, 59);
