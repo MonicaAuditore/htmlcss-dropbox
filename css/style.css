@@ -159,6 +159,22 @@ main {
   gap: 30px;
 }
 
+.btn-fatturazione {
+  padding: 30px 0px;
+}
+
+.span-fatturazione-1 i {
+  color: #0061ff;
+}
+
+.span-fatturazione-2 i {
+  color: lightgrey;
+}
+
+.span-fatturazione-1 {
+  padding-right: 20px;
+}
+
 .box-column {
   width: calc(100% / 3);
   border: 2px solid #dbd8d8;
@@ -186,7 +202,7 @@ ul li {
   width: 100%;
   border: none;
   background-color: #0061ff;
-  padding: 20px 0px;
+  padding: 15px 0px;
   color: #fff;
   font-size: 16px;
 }
@@ -218,6 +234,21 @@ ul li {
 .box-row {
   width: 100%;
   margin: 50px 0px;
+  border: 2px solid #dbd8d8;
+  border-radius: 2px;
+}
+
+.box-row-content {
+  display: flex;
+  padding: 30px;
+}
+
+.box-row_text {
+  width: 70%;
+}
+
+.box-row-button {
+  width: 30%;
 }
 
 /* SEZIONE PARTNER */
@@ -389,7 +420,7 @@ footer {
 
 .debug .pianoBusiness {
   background-color: rgb(235, 93, 147);
-}*/
+}
 
 .debug .box-column {
   background-color: rgb(255, 255, 255);
@@ -398,7 +429,7 @@ footer {
 .debug .box-row {
   height: 255px;
   background-color: rgb(212, 3, 20);
-}
+}*/
 
 .debug .partnerContatto_text {
   background-color: black;
