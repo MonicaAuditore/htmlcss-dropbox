@@ -98,8 +98,8 @@ nav {
   position: relative;
 }
 
-.nav_link-sinistra ul li:hover a:after,
-.nav_link-destra ul li:hover a:after {
+.nav_link-sinistra ul li:hover:not(:first-child) a:after,
+.nav_link-destra ul li:hover:not(:last-child) a:after {
   content: "";
   height: 3px;
   width: 100%;
