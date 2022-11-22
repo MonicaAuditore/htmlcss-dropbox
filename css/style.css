@@ -161,12 +161,13 @@ main {
 
 .box-column {
   width: calc(100% / 3);
-  border: 1px solid grey;
+  border: 2px solid #dbd8d8;
+  border-radius: 2px;
 }
 
 .box-column_title {
   text-align: center;
-  border-bottom: 1px solid grey;
+  border-bottom: 2px solid #dbd8d8;
   padding: 15px 0px;
 }
 
@@ -384,11 +385,11 @@ footer {
 
 .debug .header_container {
   background-color: rgb(102, 56, 230);
-} */
+} 
 
 .debug .pianoBusiness {
   background-color: rgb(235, 93, 147);
-}
+}*/
 
 .debug .box-column {
   background-color: rgb(255, 255, 255);
