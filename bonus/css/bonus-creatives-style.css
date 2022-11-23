@@ -276,3 +276,38 @@ h1 {
   position: absolute;
   bottom: -113px;
 }
+
+/* SEZIONE 6 */
+
+.section-img-big {
+  width: 100%vw;
+  position: relative;
+}
+
+.section-img-big img {
+  width: 100%;
+}
+
+.section-img-big-red-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  background-color: #9a0032;
+  padding: 60px;
+  display: inline-block;
+  width: 35%;
+}
+
+.section-img-big-red-box p {
+  margin-top: 10%;
+}
+
+.mini-box-white {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  padding: 18px;
+  color: #000;
+}
