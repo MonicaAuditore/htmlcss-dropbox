@@ -167,10 +167,15 @@ h1 {
 
 .collaborazione-right-box img {
   height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.collaborazione-right-box-text-first {
+  padding: 44px 73px 14px 73px;
 }
 
 .collaborazione-right-box-text {
-  padding: 40px;
   padding: 44px 73px 44px 73px;
 }
 
@@ -330,5 +335,39 @@ h1 {
   text-decoration: none;
   border-bottom: 1px solid #000;
   padding-bottom: 8px;
+  color: #000;
+}
+
+/* SEZIONE 8 */
+
+.sezione-8 {
+  background-color: #e7e5df;
+}
+
+.sezione-8-main h1 {
+  padding: 95px 0px 45px 0px;
+  width: 100%;
+}
+
+.sezione-8-main-wrap {
+  background-color: #fff;
+  padding: 57px 81px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.sezione-8-main-box {
+  width: 30%;
+}
+
+.sezione-8-main-box img {
+  width: 100%;
+}
+
+.sezione-8-main-box a {
+  display: block;
+  text-decoration: none;
+  padding-top: 20px;
   color: #000;
 }
