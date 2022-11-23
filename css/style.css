@@ -208,6 +208,18 @@ ul li {
   letter-spacing: 0.5px;
 }
 
+.fa-ul > li {
+  padding-bottom: 10px;
+}
+
+.box-column-main ul {
+  margin-left: 25px;
+}
+
+.indent {
+  text-indent: 50px;
+}
+
 .box-column_main-3 button {
   width: 100%;
   border: none;
@@ -223,10 +235,6 @@ ul li {
 
 .box-column_main-4 ul {
   list-style: none;
-}
-
-.box-column_main-4 ul li {
-  padding-bottom: 15px;
 }
 
 /* .box-column_main-4 ul li::before {
