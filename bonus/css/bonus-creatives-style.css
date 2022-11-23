@@ -125,11 +125,16 @@ h1 {
   text-decoration: none;
   margin-right: 14px;
   color: lightgrey;
+  transition: all 2s;
 }
 
 .nav-2-right a i {
   padding-right: 10px;
   color: lightgrey;
+}
+
+.nav-2-right:hover a {
+  padding-left: 300px;
 }
 
 /* SEZIONE 1 COLLABORAZIONE */
