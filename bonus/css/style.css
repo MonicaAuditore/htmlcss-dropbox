@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
 }
@@ -92,6 +96,17 @@ nav {
 .nav_link-destra ul li {
   padding: 15px;
   position: relative;
+}
+
+.nav_link-sinistra ul li:hover:not(:first-child) a:after,
+.nav_link-destra ul li:hover:not(:last-child) a:after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #0061ff;
 }
 
 .nav_link-sinistra ul li a,
