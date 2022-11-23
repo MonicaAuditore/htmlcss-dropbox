@@ -76,37 +76,46 @@ h4 {
 
 /* Menu a discesa */
 
-.link-root {
+.link-menu {
   position: relative;
+  display: inline-block;
+}
+
+.link-dropdown-content {
   display: none;
+  position: absolute;
+  top: 80px;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.link-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 2px solid #b4d0e7;
+}
+
+.link-dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.link-menu:hover .link-dropdown-content {
+  display: block;
 }
 
 .link-style {
-  position: absolute;
   left: 0;
   background-color: rgb(241, 241, 241);
-  padding: 10px 15px;
+
   width: 100%;
   font-size: 12px;
   border-bottom: 1px solid #b4d0e7;
   cursor: pointer;
   display: block;
-}
-
-.PianiPrezzi:hover .link-root {
-  display: block;
-}
-
-.link-1 {
-  top: 22px;
-}
-
-.link-2 {
-  top: 62px;
-}
-
-.link-3 {
-  top: 102px;
 }
 
 .nav {
