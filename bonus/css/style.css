@@ -90,6 +90,7 @@ h4 {
   font-size: 12px;
   border-bottom: 1px solid #b4d0e7;
   cursor: pointer;
+  display: block;
 }
 
 .PianiPrezzi:hover .link-root {
@@ -108,86 +109,73 @@ h4 {
   top: 102px;
 }
 
-/* .dropdownBtn-1 {
-  position: relative;
-}
-
-.dropdownContent-1 {
-  position: absolute;
-  top: 72;
-  left: 0;
-  width: 100%;
-  padding: 8px 15px;
-  background-color: rgb(255, 255, 255);
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-} */
-
-/* .dropdownContent-2 {
-  position: absolute;
-  width: 100%;
-  padding: 8px 15px;
-  background-color: rgb(255, 255, 255);
-}
-
-.dropdownContent-1 a {
-  font-size: 12px;
-  padding-bottom: 10px;
-} */
-
-nav {
-  width: 100%;
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+  height: 80px;
+  line-height: 80px;
 }
 
 .nav_link-sinistra ul,
 .nav_link-destra ul {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   list-style: none;
 }
 
 .nav_link-sinistra ul li,
 .nav_link-destra ul li {
-  padding: 15px;
+  /* padding: 15px; */
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
-.nav_link-sinistra ul li:hover:not(:first-child) a:after,
-.nav_link-destra ul li:hover:not(:last-child) a:after {
-  content: "";
-  height: 3px;
-  width: 100%;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #0061ff;
+.nav_link-sinistra ul li:hover,
+.nav_link-destra ul li:hover {
+  /* border-bottom: 2px solid blue; */
+  -webkit-box-shadow: inset 0px -2px 0px 0px #000000;
+  box-shadow: inset 0px -2px 0px 0px #000000;
 }
 
 .nav_link-sinistra ul li a,
 .nav_link-destra ul li a {
   text-decoration: none;
   font-size: 12px;
+  padding: 0 10px;
+  vertical-align: middle;
 }
 
-.fake-btn {
+.nav_link-sinistra #logo-title img {
+  vertical-align: middle;
+}
+
+.nav_link-sinistra #logo-title:hover {
+  vertical-align: middle;
+  box-shadow: none;
+}
+
+.nav_link-sinistra .fake-btn {
   background-color: #0061ff;
-  padding: 5px;
   color: #fff;
+}
+
+.header_container-sinistra .fake-btn,
+.partnerContatto_text .fake-btn {
+  padding: 12px;
 }
 
 /* HEADER */
 
 .title {
-  padding: 80px 0px 50px 0px;
+  padding: 140px 0px 50px 0px;
 }
 
 .header {
